@@ -177,7 +177,6 @@ var lockIds = null;
 		if(states.indexOf(gameState) >= minPlayers)
 			cardSelectionComplete(submissions);
 
-
 	}
 
 	function getSeat(playerId) {
@@ -375,6 +374,7 @@ var lockIds = null;
 		var seat = getSeat();
 		if(seat)
 		{
+			showWinnerAnimation(seat);
 			dialog = seat.getObjectByName('join_'+id);
 			if(dialog){
 				seat.remove(dialog);
@@ -1050,6 +1050,16 @@ var lockIds = null;
 		Sounds.playSound('card');
 	}
 
+	function showWinnerAnimation(winnerSeat)
+	{
+		root.add(Models.disco);
+		// var confetti = new Utils.Confetti({delay: 1000});
+		// confetti.position.copy(winnerSeat.position);
+		// confetti.position.setZ( confetti.position.z + 1.1 );
+		// confetti.quaternion.copy(winnerSeat.quaternion);
+		// root.add(confetti);
+	}
+
 	function winnerSelection(playerId)
 	{
 		gameState = 'roundFinished';
@@ -1068,11 +1078,7 @@ var lockIds = null;
 
 		// congratulate winner
 		var winnerSeat = getSeat(playerId);
-		var confetti = new Utils.Confetti({delay: 1000});
-		confetti.position.copy(winnerSeat.position);
-		confetti.position.setZ( confetti.position.z + 1.1 );
-		confetti.quaternion.copy(winnerSeat.quaternion);
-		root.add(confetti);
+		showWinnerAnimation(winnerSeat);
 		Sounds.playSound('fanfare');
 
 		// award black card

@@ -40,6 +40,7 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 		function loadModels(cb)
 		{
 			var colladaLoader = new THREE.ColladaLoader();
+			var fbxLoader = window.fbxLoader = new THREE.FBXLoader();
 			var objmtlLoader = new altspace.utilities.shims.OBJMTLLoader();
 			var modelsToGo = 8;
 
@@ -215,6 +216,10 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 
 				return boxHoverEffect;
 			}());
+
+			fbxLoader.load('/static/models/Win_Disco.fbx', function (obj) {
+				models.disco = obj;
+			});
 		}
 
 		function loadSound(url, cb)
@@ -248,7 +253,7 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 			sounds.masterVol.connect(sounds.ctx.destination);
 			sounds.masterVol.gain.value = 0.25;
 
-			// load confetti sound
+			// load winner sound
 			loadSound('/static/audio/fanfare with pop.ogg', function(source, volumeControl)
 			{
 				sounds.fanfare = source;
