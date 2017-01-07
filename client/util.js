@@ -783,8 +783,8 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 					})(nameplate, newTurnOrder[i]);
 				}
 
-				var cardRadius = 0.5, row1Angle = Math.PI/5, row2Angle = Math.PI/3,
-					row1Sep = Math.PI/10, row2Sep = 1.5*Math.PI/10;
+				var cardRadius = 0.7, row1Angle = Math.PI/5, row2Angle = Math.PI/3,
+					row1Sep = Math.PI/10 * 1.3, row2Sep = 1.8*Math.PI/10;
 
 				// set card positions
 				for(var j=0; j<12; j++)
@@ -810,6 +810,7 @@ window.AudioContext = window.AudioContext || window.webkitAudioContext;
 					var card = new THREE.Object3D();
 					card.name = 'card'+j;
 					card.applyMatrix( Utils.sphericalToMatrix(theta, phi, cardRadius, 'zyx') );
+					card.position.z = card.position.z + 0.15;
 					seat.add(card);
 
 					// add hover feedback to your own cards
