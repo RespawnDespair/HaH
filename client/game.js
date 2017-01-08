@@ -170,13 +170,8 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]
+                                                                    ]})
         );
         gameObjects.box.addEventListener('jointcollisionenter', emitPlayerJoinRequest);
 		}
@@ -256,13 +251,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         gameObjects.box.addEventListener('jointcollisionenter', function(){
 				socket.emit('dealCards');
@@ -434,13 +423,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         gameObjects.box.addEventListener('jointcollisionenter', function(){
 			socket.emit('dealCards');
@@ -514,13 +497,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         gameObjects.box.addEventListener('jointcollisionenter', emitPlayerJoinRequest);
 			root.traverse(function(model){
@@ -698,13 +675,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         blackCard.addEventListener('jointcollisionenter', function(){
 				blackCardAnimation.stop();
@@ -833,13 +804,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         card.children[0].addEventListener('jointcollisionenter',function(){
 					handleCardSelection(i);
@@ -913,13 +878,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         yes.addEventListener('jointcollisionenter', exports.confirmSelection = function(){
 				socket.emit('cardSelection', selection);
@@ -953,13 +912,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         no.addEventListener('jointcollisionenter', function()
 			{
@@ -1109,13 +1062,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         submissionSpot.addEventListener('jointcollisionenter', function()
 			{
@@ -1171,13 +1118,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         yes.addEventListener('jointcollisionenter', function(){
 				socket.emit('winnerSelection', submission.playerId);
@@ -1198,13 +1139,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         no.addEventListener('jointcollisionenter', function(){
 			socket.emit('presentSubmission', '');
@@ -1291,13 +1226,7 @@ var lockIds = null;
                                                                     ['Index', 'Right', 3],
                                                                     ['Middle', 'Right', 3],
                                                                     ['Ring', 'Right', 3],
-                                                                    ['Pinky', 'Right', 3],
-                                                                    ['Hand', 'Left', 0],
-                                                                    ['Thumb', 'Left', 3],
-                                                                    ['Index', 'Left', 3],
-                                                                    ['Middle', 'Left', 3],
-                                                                    ['Ring', 'Left', 3],
-                                                                    ['Pinky', 'Left', 3]]})
+                                                                    ['Pinky', 'Right', 3]]})
         );
         gameObjects.box.addEventListener('jointcollisionenter', function(){
 			socket.emit('dealCards');
