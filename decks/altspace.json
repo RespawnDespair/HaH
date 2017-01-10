@@ -114,7 +114,7 @@
  {"text": "John's ________ filled\nwash cloth."},
  {"text": "Your Mum prefers\n________ anyway."},
  {"text": "What is the\nAltspace dev motto?"},
- {"text": "Coming next month,\nAltspace is releasing\na new activity\nn________"},
+ {"text": "Coming next month,\nAltspace is releasing\na new activity\n________"},
  {"text": "What is your greatest phobia?"},
  {"text": "How do I cope with my crippling depression?"},
  {"text": "What is that funky spunk in my cup?"},
@@ -223,6 +223,8 @@
  {"text": "What do they call a 'Whopper'?"},
  {"text": "I dunno, I didn't go into\nBurger King. But, you know\nwhat they put on french\nfries in Holland instead\nof ketchup?"},
  {"text": "You know what the funniest thing about Europe is?"}
+ {"text": "Alexa, ________"}
+ {"text": "What's the most\nfucked up card\nyou have?"}
 ],
 "white": [
  {"text": "That funky\nRift DK2 smell."},
@@ -367,7 +369,7 @@
  {"text": "Having sex with\nyour sister."},
  {"text": "Alcohol poisoning."},
  {"text": "Americanization."},
- {"text": "Violent SelfStimulation."},
+ {"text": "Violent Self\nStimulation."},
  {"text": "A baby in a blender."},
  {"text": "Doin’ it up the bum."},
  {"text": "Paedophiles."},
@@ -989,6 +991,10 @@
  {"text": "Dying during a\ntonsillectomy."},
  {"text": "Shooting Bambi\nand his mother."},
  {"text": "One human, four dogs."},
- {"text": "Making pigs fly."}
+ {"text": "Making pigs fly."},
+ {"text": "Stripping for your\nneighbor's child's\nbirthday party."},
+ {"text": "Richie's stripping for\na Make A Wish\nrecipient."},
+ {"text": "Alexa, fuck\nmy dog!"},
+ {"text": "Big, Thick, Girthy,\nBlack Boner"}
 ]
 }
