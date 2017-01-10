@@ -114,7 +114,7 @@
  {"text": "John's ________ filled\nwash cloth."},
  {"text": "Your Mum prefers\n________ anyway."},
  {"text": "What is the\nAltspace dev motto?"},
- {"text": "Coming next month,\nAltspace is releasing\na new activity\nn________"},
+ {"text": "Coming next month,\nAltspace is releasing\na new activity\n________"},
  {"text": "What is your greatest phobia?"},
  {"text": "How do I cope with my crippling depression?"},
  {"text": "What is that funky spunk in my cup?"},
@@ -222,9 +222,16 @@
  {"text": "Just when I thought\nI was ________,\nthey pull me back in."},
  {"text": "What do they call a 'Whopper'?"},
  {"text": "I dunno, I didn't go into\nBurger King. But, you know\nwhat they put on french\nfries in Holland instead\nof ketchup?"},
+<<<<<<< HEAD
  {"text": "This song sounds like\ntwo chainsaws\n________.\n"},
  {"text": "Come with me\nif you want to\nstart ________.\n"},
  {"text": "You know what the funniest thing about Europe is?"}
+=======
+ {"text": "You know what the funniest thing about Europe is?"},
+ {"text": "Alexa, ________"},
+ {"text": "What's the most\nfucked up card\nyou have?"},
+ {"text": "Last time Jacob got drunk, he programmed an AI to do ________"}
+>>>>>>> 102706296238c037e5994b9833f619636bd40454
 ],
 "white": [
  {"text": "That funky\nRift DK2 smell."},
@@ -368,7 +375,7 @@
  {"text": "Having sex with\nyour sister."},
  {"text": "Alcohol poisoning."},
  {"text": "Americanization."},
- {"text": "Violent SelfStimulation."},
+ {"text": "Violent Self\nStimulation."},
  {"text": "A baby in a blender."},
  {"text": "Doin' it up the bum."},
  {"text": "Paedophiles."},
@@ -990,7 +997,45 @@
  {"text": "Dying during a\ntonsillectomy."},
  {"text": "Shooting Bambi\nand his mother."},
  {"text": "One human, four dogs."},
+<<<<<<< HEAD
  {"text": "Richie's drunk\nsnorting laugh."},
  {"text": "Making pigs fly."}
 ]
+=======
+ {"text": "Making pigs fly."},
+ {"text": "Stripping for your\nneighbor's child's\nbirthday party."},
+ {"text": "Richie's stripping for\na Make A Wish\nrecipient."},
+ {"text": "Alexa, fuck\nmy dog!"},
+ {"text": "Big, Thick, Girthy,\nBlack Boner"},
+ {"text": "He sounded a\nlittle jewish."},
+ {"text": "Charlietree having\nto kickstart her\nvibrator."},
+ {"text": "Jacob's drunk\nprogramming."},
+ {"text": "Jacob's horrific\nsibulance."},
+ {"text": "John's anus\nsmelling burps."},
+ {"text": "Getting told by\nJehovah Witnesses that\nyou're going to\nburn in hell."},
+ {"text": "Charlietree dancing on\ntop of a table."},
+ {"text": "The nightly passion\nshared between Ivanka\nand Donald Trump"},
+ {"text": "Making anal beads\nwith coconuts."},
+ {"text": "Charlietree and Cindy\ngetting it on in\na bathroom."},
+ {"text": "I want to\nfuck you like\nan animal."},
+ {"text": "Creepy alien\nstriptease."},
+ {"text": "Gotta enjoy\nthat pussy."},
+ {"text": "Gotta enjoy\nthat dick."},
+ {"text": "Gold Diggers"},
+ {"text": "Inserting a catheter\nso you don't have\nto leave VR."},
+ {"text": "Masturbating to the\nsight of Amber."},
+ {"text": "Richie and Undaunted's\nwedding."},
+ {"text": "Sand in vagina."},
+ {"text": "Being stupid enough\nto have wear $20\nmillion in jewelry\nin public and\ngetting robbed."},
+ {"text": "Getting Virtually\nfingerbanged by\nCharlietree's deformed\nVR hands."},
+ {"text": "Boobies?"},
+ {"text": "Swedish Cock Bread"},
+ {"text": "Cock so hard\nit registers as\n10 on the Mohs\nscale."},
+ {"text": "A skull so\nthis that even\napes are scared."},
+ {"text": "Incrimating DNA\nevidence."},
+ {"text": "John's love for\neggae Bomb."},
+ {"text": "Jamaicans doing the\ntrain on you."},
+ {"text": "VR Rape"},
+ {"text": "Waking up with\ndicks sharpie'd on\nyour face."},
+>>>>>>> 102706296238c037e5994b9833f619636bd40454
 }
