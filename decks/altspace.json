@@ -228,14 +228,12 @@
  {"text": "Alexa, ________"},
  {"text": "What's the most fucked up card you have?"},
  {"text": "Last time Jacob got drunk, he programmed an AI to do ________."},
- {"text": "I got fired for calling my boss a ________."},
+ {"text": "I got fired for calling my boss ________."},
  {"text": "Dicks out for ________."},
- {"text": "In Soviet Russia, ________ ________'s you."},
-<<<<<<< HEAD
+ {"text": "In Soviet Russia, ________ will be ________ you."},
  {"text": "Why does my bum hurt?"},
  {"text": "Why is Richie itchy?"}],
 "white": [ {"text": "That funky Rift DK2 smell."},
-=======
  {"text": "Why is Richie itchy?"},
  {"text": "Why do Jews have big noses?"},
  {"text": "How do you get a nun pregnant?"},
@@ -1492,20 +1490,11 @@
  {"text": "Richie's black ass."},
  {"text": "John's peachy ball sack."},
  {"text": "A pink, petally pussy."},
-<<<<<<< HEAD
- {"text": "Richie"},
- {"text": "John"},
- {"text": "Jacob"},
- {"text": "Amber"},
- {"text": "Cindy"},
- {"text": "Deditated Wam"},
  {"text": "Somehow managing to piss of both North and South Korea."},
  {"text": "Yellow dick road."},
  {"text": "Doing a shit in pudsey bear eye hole."},
  {"text": "Your mother telling you that you are a mistake."},
- {"text": "Richie fitting John's dildo castle's up his bum."}
-] }
-=======
+ {"text": "Richie fitting John's dildo castles up his bum."},
  {"text": "Richie."},
  {"text": "John."},
  {"text": "Jacob."},
@@ -1726,7 +1715,7 @@
  {"text": "Getting eaten out by a dog."},
  {"text": "A poonani."},
  {"text": "My manhood."},
-  {"text": "A poon tang pie."},
+ {"text": "A poon tang pie."},
  {"text": "Getting high with mom."},
  {"text": "My lunchbox."},
  {"text": "The anal impaler."},
@@ -1870,4 +1859,3 @@
  {"text": "Feminism."}
  ]
 }
->>>>>>> origin/master
