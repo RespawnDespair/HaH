@@ -177,7 +177,7 @@
  {"text": "The reason the ozone layer is decaying is because of ________."},
  {"text": "They say ________ is the best medicine."},
  {"text": "War World II was the result of what?"},
- {"text": "We should stop war on ________, it has ruined more lives than saved."},
+ {"text": "We should stop the war on ________. It has ruined more lives than it has saved."},
  {"text": "What are my relatives hiding from me?"},
  {"text": "What did I bring back from Cancun?"},
  {"text": "What do they call American Cheese in Canada?"},
@@ -1865,6 +1865,8 @@
  {"text": "Amy Schumer."},
  {"text": "Fo' shizzle ma nizzle."},
  {"text": "Fo' sheezy mah neezy."},
+ {"text": "Sir Buzz Killington."},
+ {"text": "The Itty Bitty Titty Committee."},
  {"text": "Talking about chickens all day."}
  ]
 }
